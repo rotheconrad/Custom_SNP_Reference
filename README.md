@@ -1,2 +1,2 @@
 # Create custom SNP corrected reference genomes.
-This is the workflow we explored to do this project using a combination of published tools and one pearl script of ours to reformat the naming of the final output final.
+This is the workflow we explored for the 20 Transcriptomes project in 2016 in the McDaniel Lab to create custom snp corrected reference genomes for each individual with the goal of improving genome guided transcriptome mapping efficiency using a combination of published tools and one pearl script of ours to reformat the naming of the final output final.
