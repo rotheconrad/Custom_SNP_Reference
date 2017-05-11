@@ -1,14 +1,8 @@
 #!/bin/bash
-#SBATCH --job-name=hybrid-genome
-#SBATCH --output=log/hybrid-genome.%a.out
-#SBATCH --error=log/hybrid-genome.%a.err
-#SBATCH --mail-type=ALL
-#SBATCH --mail-user=rotheconrad@ufl.edu
+
 #SBATCH --time=24:00:00
 #SBATCH --ntasks=1
 #SBATCH --mem-per-cpu=4gb
-#SBATCH --qos=mcdaniel-b
-#SBATCH --array=2-20%2
 
 module load samtools
 
